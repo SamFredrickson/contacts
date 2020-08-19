@@ -1,0 +1,59 @@
+.body-custom {
+    background: #E9E9E9;
+}
+
+.form-contact{
+    background: white;
+    width: 320px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.form-group{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-group input[type=text]{
+    width: 270px;
+    box-shadow: none;
+    border: 1px solid #eeeeee;
+}
+
+.form-contact button{
+    width: 98px;
+    height: 45px;
+    border: 0;
+    font-size: 16px;
+    background: #4d59a1;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.title-form{
+    height: 60px;
+    border-bottom: 1px solid #eeeeee;
+    align-self: center;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.con-items .con-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    border-bottom: 1px solid #eeeeee;
+    height: 70px;
+}
+
+#close{
+    font-size: 12px;
+}
+
+#close:hover{
+    color: crimson;
+}
